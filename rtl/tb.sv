@@ -12,8 +12,9 @@ module tb;
 
     //initiating 
     taxi_axi_if #(
-        .ADDR_W(ADDR_WIDTH))
-    ) axi_if();
+        .ADDR_W(ADDR_WIDTH)
+        )
+    axi_if();
 
     taxi_axi_ram #(
         .ADDR_W(ADDR_WIDTH)
